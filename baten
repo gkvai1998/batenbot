@@ -101,8 +101,8 @@ def check_order_status(update, context):
 
 # Main function to set up the bot
 def main():
-    # Replace 'YOUR_TOKEN' with your bot's API token
-    updater = Updater("YOUR_TOKEN", use_context=True)
+    # Replace '7721636342:AAEwHJpjYa3_2-nqDYCm0KRdFCR1wHfFA1U's API token
+    updater = Updater("7721636342:AAEwHJpjYa3_2-nqDYCm0KRdFCR1wHfFA1U",  use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
